@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto Slab';
+}
+:root {
+    --cor-header: #FF9A6C;
+    --cor-white: #fff;
+    --orange-strong: #ff725e;
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3em;
+    padding: 15px;
+    background-color: var(--cor-header);
+}
+.navegation {
+    display: flex;
+    gap: 1.4em;
+    font-size:
+    1.2em;
+}
+.navegation a {
+    text-decoration: none;
+    color: var(--cor-white);
+}
+#initial {
+    display: flex;
+    flex-direction: column;
+}
+#initial img {
+    width: 100vw;
+    padding: 30px 0px;
+}
+.contentConsultMeat, .contentOurClinic {
+    margin: 30px 0px;
+}
+.contentConsultMeat h1, p {
+    padding: 0px 20px
+}
+.contentConsultMeat h1 {
+    padding-bottom: 20px;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 20px 0px;
+}
+.btns .consult {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--orange-strong);
+    color: var(--cor-white);
+    font-size: 16px;
+}
+.btns .meet {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid var(--orange-strong);
+    color: var(--orange-strong);
+    font-size: 16px;
+}
+.contentOurClinicImg img {
+    width: 100vw;
+}
+.contentOurClinic {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin: 30px 0px;
+}
+.contentOurClinic h1, p, ul {
+    padding: 0px 20px;
+}
+.contentOurClinic li {
+    list-style-position: inside;
+    padding: 5px 0px;
+}
+#pharmacy {
+    margin: 70px 0px;
+}
+#pharmacy h1, p {
+    padding: 0px 20px;
+}
+#pharmacy p {
+    line-height: 1.3;
+    padding: 30px 20px 0px 20px;
+}
+.pharmacyImg img {
+    width: 100vw;
+}
+.imgFaq img {
+    width: 100vw;
+}
+.faq {
+    border: 2px solid var(--orange-strong);
+    margin: 20px;
+}
+.faq p {
+    display: none;
+    padding: 20px 10px;
+}
+#faq h1 {
+    padding: 30px 20px;
+}
+#faq h2 {
+    font-size: 18px;
+}
+#faq .agroup {
+    display: flex;
+    padding: 10px;
+}
+#footer {
+    background-color: var(--cor-header);
+    margin-top: 80px; 
+}
+.footer-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.1em;
+    padding: 20px 0px;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    padding: 15px 0px;
+}
+.links a {
+    color: #000;
+    text-decoration: none;
+}
+.meating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4em;
+    padding: 15px 0px;
+}
+.email {
+    text-decoration: underline;
+}
