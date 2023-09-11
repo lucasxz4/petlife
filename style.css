@@ -118,6 +118,7 @@ body {
 }
 #faq .agroup {
     display: flex;
+    justify-content: space-between;
     padding: 10px;
 }
 #footer {
@@ -154,4 +155,7 @@ body {
 }
 .email {
     text-decoration: underline;
+}
+#resultFaq-four {
+    transition: .2s;
 }

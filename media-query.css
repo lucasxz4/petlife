@@ -1,0 +1,127 @@
+@media screen and (min-width: 768px) {
+    #header {
+        height: 10.4em;
+    }
+    .navegation {
+        gap: 4em;
+        padding-top: 20px;
+    }
+    .navegation a {
+        font-size: 1.3em;
+    }
+    .contentImg {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contentImg img {
+        max-width: 80%;
+        text-align: center;
+    }
+    .contentConsultMeat {
+        max-width: 80%;
+        margin: auto;
+    }
+    .contentConsultMeat h1 {
+        font-size: 2rem;
+    }
+    .contentConsultMeat p {
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+    .btns {
+        flex-direction: column;
+        gap: 2em;
+        padding: 40px 0px;
+    }
+    .btns .consult {
+        font-size: 1.7rem;
+    }
+    .btns .meet {
+        font-size: 1.7rem;
+    }
+    .contentOurClinicImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        padding: 80px 0px;
+    }
+    .contentOurClinic {
+        max-width: 80%;
+        margin: auto
+    }
+    .contentOurClinic h1 {
+        font-size: 2rem;
+    }
+    .contentOurClinic p {
+        font-size: 1.3rem;
+    }
+    .contentOurClinic ul {
+        padding: 30px 20px;
+    }
+    .contentOurClinic ul li {
+        font-size: 1.2rem;
+    }
+    #pharmacy h1 {
+        font-size: 2rem;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+    .pharmacyImg {
+        display: flex;
+        justify-content: center;
+    }
+    .pharmacyImg img {
+        max-width: 80%;
+        margin-bottom: 60px;
+    }
+    #pharmacy p {
+        max-width: 80%;
+        font-size: 1.3rem;
+        margin: auto;
+        line-height: 1.7;
+    }
+    .imgFaq {
+        display: flex;
+        justify-content: center;
+    }
+    .imgFaq img {
+        width: 80%;
+        margin-bottom: 60px;
+    }
+    .faq {
+        margin: 40px;
+        padding: 20px;
+    }
+    .contentFaq h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    #faq .agroup > h2 {
+        font-size: 1.3rem;
+    }
+    #faq p {
+        font-size: 1.3rem;
+    }
+    #footer .footer-one {
+        gap: 2rem;
+        padding: 40px 0px 20px 0px;
+    } 
+    .footer-one p {
+        font-size: 1.3rem;
+        max-width: 70%;
+    }
+    .links {
+        flex-direction: row;
+        gap: 1.2rem;
+    }
+    .links h3 {
+        font-size: 1.3rem;
+    }
+    .links a {
+        font-size: 18px;
+    }
+}
