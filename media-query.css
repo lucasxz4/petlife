@@ -125,3 +125,18 @@
         font-size: 18px;
     }
 }
+
+@media screen and (min-width: 830px) {
+    #header {
+        height: 15%;
+    }
+    .navegation a {
+        font-size: 1.2rem;
+    }
+    .contentImg img {
+        height: 500px;
+        width: 60%;
+        margin: 0;
+        padding: 0;
+    }
+}
